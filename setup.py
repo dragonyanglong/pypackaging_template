@@ -23,7 +23,7 @@ setuptools.setup(
     entry_points={'console_scripts': [
             'pkgname = pkgname.main:main',],
         },
-    data_files = [("", ["LICENSE.txt"])]
+    data_files = [("", ["LICENSE.txt"])],
     python_requires='>=3.6',
     zip_safe=False,
 )
