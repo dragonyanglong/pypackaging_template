@@ -11,13 +11,12 @@ setuptools.setup(
     author_email="author@example.com",
     description="A small example package",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/pypa/sampleproject",
     packages=setuptools.find_packages(),
     package_dir={"pkgname": "pkgname"},
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
     ],
     entry_points={'console_scripts': [
